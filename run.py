@@ -2,10 +2,10 @@ from flask import Flask, request
 #インスタンスを作成、引数には__name__を使用する
 app = Flask(__name__)
 #ルーティングを定義しいる
-#ここでは'/'niにアクセスされると、hello_worldという関数を実行する
+#ここでは'/'にアクセスされると、hello_worldという関数を実行する
 @app.route('/')
 def hello_world():
-    return "Hello World!"
+    return "Hello World"
 
 @app.route('/flask')
 def hello_sample():
