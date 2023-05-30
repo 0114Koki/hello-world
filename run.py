@@ -5,7 +5,7 @@ app = Flask(__name__)
 #ここでは'/'にアクセスされると、hello_worldという関数を実行する
 @app.route('/')
 def hello_world():
-    return "Hello World"
+    return "Hello World!!!"
 
 @app.route('/flask')
 def hello_sample():
