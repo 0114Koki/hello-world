@@ -4,4 +4,4 @@
 
 ##　今やっていることは
 - vscodeでのcommit/pushの方法
-- githubにきちんと反映できているのか確認
+- githubにきちんと反映できているのか
